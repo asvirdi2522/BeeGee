@@ -160,8 +160,15 @@ body
   {
     padding: 10px;
   }
+  .ab
+  {
+    background-image: none;
+  }
 }
-
+.ab
+{
+  background-size: cover;
+}
 
 /*ABOUT US ENDS*/
 /*WHY CHOOSE US*/
@@ -198,3 +205,83 @@ body
 }
 
 /* WHY CHOOSE US ENDS */
+
+/*SERVICES WE PROVIDE*/
+.gr
+{
+  width: 250px;
+  padding: 30px;
+}
+.grtext
+{
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.servicetext
+{
+  padding: 30px;
+  text-align: center;
+  color: whitesmoke
+}
+@media screen and (max-width:1030px)
+{
+  .gr
+  {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #servicewe
+  {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 800px)
+{
+  .gr
+  {
+    padding: 0px;
+  }
+}
+@media screen and (max-width:500px)
+{
+  .gr
+  {
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .servicetext
+  {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .grtext
+  {
+    font-size: 15px;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  #servicewe
+  {
+    padding: 10px;
+  }
+}
+#servicewe
+{
+  padding: 100px;
+}
+.provide
+{
+  background-color: darkgray;
+}
+
+/*SERVICE WE PROVIDE ENDS*/
