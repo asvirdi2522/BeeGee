@@ -181,7 +181,7 @@ body
 }
 #whychooseus
 {
-  padding: 70px;
+  padding: 40px;
 }
 @media screen and (max-width: 766px)
 {
@@ -301,29 +301,33 @@ body
 }
 .teamph
 {
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   margin-left: auto;
   margin-right: auto;
   display: block;
   border-radius: 100%;
   border: solid;
   border-color: black;
-  border-width: 1px;
+  border-width: 2px;
   margin-bottom: 10px;
 }
 .teamtx
 {
   padding: 5px;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 22px;
 }
 #teammembers
 {
   background-color: white;
-  /*margin-top: 20px;*/
   padding: 20px;
-  box-shadow: 1px 1px 5px 2px #ccdddd;
+  box-shadow: 1px 2px 5px 2px #ccdddd;
+}
+.social
+{
+  width: 30px;
+  height: 30px;
 }
 @media screen and (max-width:766px)
 {
@@ -355,8 +359,8 @@ body
   }
   .social
   {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
 }
 
