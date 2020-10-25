@@ -6,11 +6,12 @@ body
 /* NAVBAR*/
 .topnav {
     overflow: hidden;
+    background-color: #8f48e6;
   }
   
   .topnav a {
     display: inline-block;
-    color: gray;
+    color: white;
     text-align: center;
     padding: 20px 25px;
     text-decoration: none;
@@ -98,7 +99,7 @@ body
 {
   margin: 10px;
   padding: 12px 20px;
-  background-color: #6600ff;
+  background-color: #ff2814;
   color: white;
   font-size: 17px;
   border-radius: 30px;
@@ -137,9 +138,9 @@ body
 #aboutus
 {
   margin-top: 20px;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   padding: 90px;
-  box-shadow: 1px 1px 5px 2px #ccdddd;
+  /*box-shadow: 1px 1px 5px 2px #ccdddd;*/
 }
 @media screen and (max-width:766px)
 {
@@ -182,6 +183,10 @@ body
 #whychooseus
 {
   padding: 40px;
+  background-image: url('choosebehind.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
 }
 @media screen and (max-width: 766px)
 {
@@ -203,6 +208,7 @@ body
 {
   background-image: url('choose.svg');
   background-size: auto;
+  background-attachment: fixed;
 }
 
 /* WHY CHOOSE US ENDS */
@@ -296,8 +302,9 @@ body
 }
 .teammem
 {
-  background-image: url('teambg.svg');
-  background-size: cover;
+  background-image: url('teambg2.svg');
+  background-size: contain;
+  background-attachment: fixed;
 }
 .teamph
 {
@@ -311,6 +318,7 @@ body
   border-color: black;
   border-width: 2px;
   margin-bottom: 10px;
+  box-shadow: 1px 2px 5px 2px #ccdddd;
 }
 .teamtx
 {
@@ -365,3 +373,46 @@ body
 }
 
 /*TEAM MEMBERS END*/
+
+/*SAMPLE WORK*/
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: dimgray;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  max-width: 400px;
+  background: #000;
+}
+.im
+{
+  height: 300px;
+  width: 400px;
+}
+@media screen and (max-width:450px)
+{
+  .im
+  {
+    height: 200px;
+    width: 300px;
+  }
+  .swiper-slide 
+  {
+    background-position: center;
+    background-size: cover;
+    max-width: 300px;
+    background: #000;
+  }
+
+}
+.samplehd
+{
+  text-align: center;
+  padding: 40px;
+  color: white;
+}

@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="beegee.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
@@ -17,7 +18,7 @@
     <body>
       <!------------------------- NAVBAR STARTS ---------------------------->
       <div class="topnav" id="myTopnav">
-        <img src="bg1.png" alt="" width="100">
+        <img src="bgf.png" alt="" width="100">
         <!--<a href="#home" class="active">BeeGee</a>-->
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
@@ -40,7 +41,7 @@
       <!------------------------- NAVBAR ENDS ---------------------------->
 
       <!---------------------------MAIN IMAGE------------------------------>
-      <div class="main" style="background-image: url(bg_hero_1.svg);">
+      <div class="main" style="background-image: url(main.svg);">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -48,7 +49,7 @@
               <a class="bu" href="#">Sign Up</a>
             </div>
             <div class="col-md-6">
-              <img class="mainimage" src="bg1.png">
+              <img class="mainimage" src="bgf.png">
             </div>
           </div>
         </div>
@@ -203,6 +204,45 @@
     </div>
   </div>
 </div>
-
+<!--------------------------SAMPLE WORK----------------------------->
+<div class="swiper-container">
+  <h1 class="samplehd">Sample Graphic Designs</h1>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+    <div class="swiper-slide"><img src="https://i.insider.com/578d53f7dd0895115c8b46dc?width=1100&format=jpeg&auto=webp" class="im"></div>
+ </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 20,
+    stretch: 0,
+    depth: 200,
+    modifier: 1,
+    slideShadows: true,
+  },
+  loop: true,
+  autoplay: {
+  delay: 1000,
+  disableOnInteraction: false,
+},
+});
+</script>
+<!-----------------------------SAMPLE WORK ENDS------------------------------------>
     </body>
 </html>
