@@ -478,6 +478,10 @@ a.footl:hover
   {
     font-size: 20px;
   }
+  #smth
+  {
+    font-size: 20px;
+  }
 }
 @media screen and (max-width:760px)
 {
@@ -485,9 +489,11 @@ a.footl:hover
   {
     font-size: 20px;
     margin-top: 10px;
+    background-color: lightgray;
   }
   #smh
   {
+    background-color: lightgray;
     font-size: 20px;
     margin-top: 10px;
   }
