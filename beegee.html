@@ -9,6 +9,7 @@
         <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Bellota Text' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -20,10 +21,10 @@
       <div class="topnav" id="myTopnav">
         <img src="bgf.png" alt="" width="100">
         <!--<a href="#home" class="active">BeeGee</a>-->
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="#about">Sign Up</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#teammem">Team Members</a>
+        <a href="#footer">Contact Us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -38,6 +39,7 @@
           }
         }
         </script>
+
       <!------------------------- NAVBAR ENDS ---------------------------->
 
       <!---------------------------MAIN IMAGE------------------------------>
@@ -46,7 +48,7 @@
           <div class="row">
             <div class="col-md-6">
               <h1 class="maintext">Giving Exposure to the Artists in you...</h1><br><br>
-              <a class="bu" href="#">Sign Up</a>
+              <a class="bu" href="#aboutus">About Us</a>
             </div>
             <div class="col-md-6">
               <img class="mainimage" src="bgf.png">
@@ -109,7 +111,7 @@
     <!----------------------SERVICES WE PROVIDE----------------------------->
 
 
-    <div class="provide">
+    <div class="provide" id="services">
       <h1 class="servicetext">Services We Provide</h1>
     <div class="container" id="servicewe">
       <div class="row">
@@ -175,7 +177,7 @@ var swiper = new Swiper('.swiper-container', {
 </script>
 <!-----------------------------SAMPLE WORK ENDS------------------------------------>
 <!--------------------------TEAM MEMBERS------------------------------->
-<div class="teammem" style="margin-bottom: 5vw;">
+<div class="teammem" style="margin-bottom: 5vw;" id="teammem">
   <div class="container" id="teammembers">
     <h1 class="teamtxmain">Team Members</h1>
     <div class="row">
@@ -247,11 +249,11 @@ var swiper = new Swiper('.swiper-container', {
 <!----------------------TEAM MEMBER ENDS---------------------------->
 
 <!------------------------------FOOTER--------------------------------->
-<div class="footer" style="bottom: 0;background-image: url(https://www.pngitem.com/pimgs/m/160-1605161_cities-background-for-footer-skyline-hd-png-download.png);margin: 0 auto;overflow: hidden;background-size: cover;background-attachment: fixed;padding: 10px;">
+<div class="footer" id="footer">
   <h1 style="text-align: center; font-size: 3vw;">Contact Us</h1>
   <h3 style="text-align: center; font-size: 2vw;">For any query, suggestion or feedback, feel free to contact us using below details.</h3>
-  <a href=""><h3 style="text-align: center; font-size: 1vw;">+91 7838613352</h3></a>
-  <a href=""><h3 style="text-align: center; font-size: 1vw;">www.beegee@gmail.com</h3></a>
+  <a class="footl" href=""><h3 style="text-align: center; font-size: 1.5vw;">+91 7838613352</h3></a>
+  <a class="footl" href=""><h3 style="text-align: center; font-size: 1.5vw;">www.beegee@gmail.com</h3></a>
 </div>
 <!------------------------------------FOOTER ENDS------------------------------------>
 

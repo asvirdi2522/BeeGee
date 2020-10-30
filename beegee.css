@@ -3,6 +3,10 @@ body
     margin: 0;
     padding: 0;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 /* NAVBAR*/
 .topnav {
     overflow: hidden;
@@ -425,4 +429,24 @@ body
 
 /*FOOTER*/
 
-/*FOOTER END*/
+.footer
+{
+  overflow: hidden;
+  background-image:  
+  linear-gradient(45deg, rgba( 
+    145, 146, 122, 0.62), rgba(49, 46, 47, 0.78)), url( 
+'bgfooter1.png'); 
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+}
+a.footl:link
+{
+  color: black;
+}
+a.footl:hover
+{
+  text-decoration: none;
+  color: black;
+}
+/*FOOTER ENDS*/
