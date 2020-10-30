@@ -302,9 +302,12 @@ body
 }
 .teammem
 {
-  background-image: url('teambg2.svg');
-  background-size: contain;
+  /*background-color: darkgray;*/
+  /*background-image: url('team.svg');
+  background-size: cover;
   background-attachment: fixed;
+  background: rgb(143,72,230);
+  background: linear-gradient(90deg, rgba(143,72,230,1) 0%, rgba(255,40,20,1) 100%);*/
 }
 .teamph
 {
@@ -318,7 +321,7 @@ body
   border-color: black;
   border-width: 2px;
   margin-bottom: 10px;
-  box-shadow: 1px 2px 5px 2px #ccdddd;
+  /*box-shadow: 1px 2px 5px 2px #ccdddd;*/
 }
 .teamtx
 {
@@ -380,7 +383,7 @@ body
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: dimgray;
+  background-color: darkgray;
 }
 
 .swiper-slide {
@@ -408,7 +411,10 @@ body
     max-width: 300px;
     background: #000;
   }
-
+  .samplehd
+  {
+    font-size: 30px;
+  } 
 }
 .samplehd
 {
@@ -416,3 +422,7 @@ body
   padding: 40px;
   color: white;
 }
+
+/*FOOTER*/
+
+/*FOOTER END*/
