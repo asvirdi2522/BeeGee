@@ -464,6 +464,12 @@ a.footl:hover
 {
   margin-top: 70px;
 }
+.footsocial
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 @media screen and (max-width:770px)
 {
   #cu
