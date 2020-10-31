@@ -202,6 +202,7 @@ html
   #whychooseus
   {
     padding: 20px;
+    background-image: none;
   }
   .col-md-4
   {
@@ -332,6 +333,7 @@ html
   padding: 5px;
   font-size: 25px;
   margin-top: 22px;
+  font-family: 'Actor';
 }
 #teammembers
 {
