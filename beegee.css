@@ -21,6 +21,11 @@ html
     text-decoration: none;
     font-size: 20px;
   }
+  @font-face
+  {
+    font-family: Darkline;
+    src: url('Darkline.ttf');
+  }
   
   .topnav a:hover {
     /*background-color: #ddd;*/
@@ -78,7 +83,7 @@ html
 .maintext
 {
   margin-top: 35%;
-  font-size: 55px;
+  font-size: 60px;
   font-family: sans-serif;
 }
 @media screen and (max-width:770px)
@@ -293,7 +298,8 @@ html
 }
 .provide
 {
-  background-color: darkgray;
+  /*background-color: darkgray;*/
+  background-color: #fcc61b;
 }
 
 /*SERVICE WE PROVIDE ENDS*/
@@ -390,7 +396,7 @@ html
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: darkgray;
+  background-color: #6c81f6;
 }
 
 .swiper-slide {
@@ -446,12 +452,12 @@ html
 }
 a.footl:link
 {
-  color: black;
+  color: white;
 }
 a.footl:hover
 {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .footimg
 {
