@@ -458,12 +458,12 @@ html
 }
 a.footl:link
 {
-  color: white;
+  color: black;
 }
 a.footl:hover
 {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .footimg
 {
