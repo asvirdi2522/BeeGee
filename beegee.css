@@ -354,6 +354,10 @@ html
   width: 30px;
   height: 30px;
 }
+.socialover
+{
+  float: left;
+}
 @media screen and (max-width:766px)
 {
   .teamtx
@@ -365,12 +369,13 @@ html
   }
   .socialover
   {
-    padding: 0px;
+    float: none;
+    margin-left: 0px;
     text-align: center;
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width:990px)
+@media screen and (max-width:990px) and (min-width:767px)
 {
   .teamtx
   {
@@ -513,5 +518,9 @@ a.footl:hover
     font-size: 20px;
     margin-top: 10px;
   }
+}
+.socialoverf
+{
+  text-align: center;
 }
 /*FOOTER ENDS*/
