@@ -22,9 +22,9 @@
       <div class="topnav" id="myTopnav">
         <img src="bg2.png" alt="" width="100">
         <!--<a href="#home" class="active">BeeGee</a>-->
-        <a href="#aboutus">About Us</a>
         <a href="#services">Services</a>
         <a href="#teammem">Team Members</a>
+        <a href="#courses">Courses</a>
         <a href="#footer">Contact Us</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
@@ -45,13 +45,13 @@
 
       <!---------------------------MAIN IMAGE------------------------------>
       <div class="main" style="background-image: url(main.svg);">
-        <div class="container" id="mainpage1" style="padding-bottom: 30px;backdrop-filter: blur(5px);box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.1);">
-          <div class="phicons">
+        <div class="container" id="mainpage1">
+          <!--<div class="phicons">
             <img src="messages.png" class="phicmes">
             <img src="silent.png" class="phic">
             <img src="wifi.png" class="phic">
             <img src="battery.png" class="phic">
-          </div>
+          </div>-->
           <div class="row">
             <div class="col-md-6">
               <h1 class="maintext" style="font-family: Darkline;">Giving Exposure to the Designer in you<span style="font-family: cursive;font-size: 30px;">...</span></h1><br><br>
@@ -253,26 +253,28 @@ var swiper = new Swiper('.swiper-container', {
 </div>
 <!----------------------TEAM MEMBER ENDS---------------------------->
 <!-----------------------------COURSES----------------------------------->
-<div class="container-fluid" style="padding: 30px;">
+<div class="container-fluid" style="padding: 30px;" id="courses">
   <h1 class="courtxt">Courses</h1>
   <div class="row">
     <div class="col-md-6">
-      <div class="card" id="cour1" style="box-shadow: 20px 20px 50px #cdcdcd">
+      <div class="card" id="cour1" style="box-shadow:  5px 5px 10px #828282,
+      -5px -5px 10px #ffffff;">
         <img class="card-img-top" src="https://lh3.googleusercontent.com/YGJ77qN9KiwctZgfqV8Bf3hNo0rZvcFaPKDTkvtS6kVbtwyCS80Pm6dpXzJCCLZE1Q" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Photoshop Course</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Go to course</a>
         </div>
       </div>
     </div>
     <div class="col-md-6">
-      <div class="card" id="cour2" style="box-shadow: 20px 20px 50px #cdcdcd">
+      <div class="card" id="cour2" style="box-shadow:  5px 5px 10px #828282,
+      -5px -5px 10px #ffffff;">
         <img class="card-img-top" src="https://lh3.googleusercontent.com/YGJ77qN9KiwctZgfqV8Bf3hNo0rZvcFaPKDTkvtS6kVbtwyCS80Pm6dpXzJCCLZE1Q" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Video Editing Course</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Go to course</a>
         </div>
       </div>
     </div>
@@ -288,10 +290,12 @@ var swiper = new Swiper('.swiper-container', {
 	});
   </script>
 <!-------------------------COURSES ENDS---------------------------------->
+<!-----------------------------------BLOGS------------------------------------>
 
+<!---------------------------------BLOGS END----------------------------------->
 <!------------------------------FOOTER--------------------------------->
 <div class="footer" id="footer">
-  <div class="container" style="backdrop-filter: blur(10px);box-shadow: 20px 20px 50px rgba(255, 255, 255, 0.1);">
+  <div class="container">
     <div class="row">
       <div class="col-md-4"  id="cu">
         <h1  style="text-align: center;color: black;font-family: 'Actor';font-weight: 100;">Contact Us</h1>
