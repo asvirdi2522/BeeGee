@@ -128,7 +128,7 @@ html
   box-shadow: 1px 1px 5px 1px #5c00e6;
   background-color: #5c00e6;
   text-decoration: none;
-  transition: 0.3s ease;
+  transition: 0.1s;
 }
 .mainimage:hover
 {
@@ -220,7 +220,16 @@ html
   background-image: url('choosebehind.svg');
   background-size: 25%;
   background-repeat: no-repeat;
-  background-color: white;
+  /*background-color: white;*/
+  background: rgba( 255, 255, 255, 0.35 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13.5px );
+-webkit-backdrop-filter: blur( 13.5px );
+border-radius: 10px;
+}
+#whychooseus:hover
+{
+  
 }
 @media screen and (max-width: 766px)
 {
@@ -378,6 +387,11 @@ html
 {
   width: 30px;
   height: 30px;
+  transition: transform 0.3s;
+}
+.social:hover
+{
+  transform: scale(1.1);
 }
 .socialover
 {
@@ -541,20 +555,44 @@ html
 /*COURSE ENDS*/
 
 /*BLOGS*/
+/*.embedly-card
+{
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    padding: 20px;
+    -webkit-box-shadow: -5px 0px 33px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 0px 33px -14px rgba(0,0,0,0.75);
+    box-shadow: -5px 0px 33px -14px rgba(0,0,0,0.75);
+}
 
+@media screen and (max-width: 440px)
+{
+    .embedly-card
+    {
+        max-width: 250px;
+    }
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 25px;
+  width: 25px;
+  outline: black;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+  color: #5c00e6;*/
+  /*background-size: 100%, 100%;*/
+/*}*/
 /*BLOG ENDS*/
 
 /*FOOTER*/
 
 .footer
 {
-  /*overflow: hidden;
-  background-image:  
-  linear-gradient(45deg, rgba( 
-    145, 146, 122, 0.62), rgba(49, 46, 47, 0.78)), url( 
-'bgfooter1.png'); 
-  background-size: cover;
-  background-attachment: fixed;*/
   background-color: #6c81f6;
   padding: 20px;
   font-family: sans-serif;
@@ -587,6 +625,11 @@ a.footl:hover
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  transition: transform 0.3s;
+}
+.footsocial:hover
+{
+  transform: scale(1.1);
 }
 @media screen and (max-width:770px)
 {
@@ -633,3 +676,48 @@ a.footl:hover
   text-align: center;
 }
 /*FOOTER ENDS*/
+
+@-webkit-keyframes hvr-ripple-in {
+  100% {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes hvr-ripple-in {
+  100% {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+  }
+}
+.hvr-ripple-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  border-radius: 30px;
+}
+.hvr-ripple-in:before {
+  content: '';
+  position: absolute;
+  border: #5c00e6 solid 4px;
+  top: -12px;
+  right: -12px;
+  bottom: -12px;
+  left: -12px;
+  opacity: 0;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  border-radius: 30px;
+}
+.hvr-ripple-in:hover:before, .hvr-ripple-in:focus:before, .hvr-ripple-in:active:before {
+  -webkit-animation-name: hvr-ripple-in;
+  animation-name: hvr-ripple-in;
+}
